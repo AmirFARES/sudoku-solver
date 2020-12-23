@@ -1,0 +1,42 @@
+table,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #0DCAF0 , #C8F00D);  
+}
+input {
+  width: 35px;
+}
+input {     
+    text-align:center; 
+}
+#g00,#g01,#g02,#g10,#g11,#g12,#g20,#g21,#g22,#g66,#g67,#g68,#g76,#g77,#g78,#g86,#g87,#g88{
+    border-color: #0DCAF0;
+}
+#g03,#g04,#g05,#g13,#g14,#g15,#g23,#g24,#g25,#g63,#g64,#g65,#g73,#g74,#g75,#g83,#g84,#g85{
+    border-color: #F0330D;
+}
+#g06,#g07,#g08,#g16,#g17,#g18,#g26,#g27,#g28,#g60,#g61,#g62,#g70,#g71,#g72,#g80,#g81,#g82{
+    border-color: #59F00D;
+}
+#g33,#g34,#g35,#g43,#g44,#g45,#g53,#g54,#g55{
+    border-color: white;
+}
+#g30,#g31,#g32,#g40,#g41,#g42,#g50,#g51,#g52,#g36,#g37,#g38,#g46,#g47,#g48,#g56,#g57,#g58{
+    border-color: #A40DF0;
+}
+#entertooltip {
+  color: black;
+  text-decoration:none;
+  cursor:help;
+}
+
